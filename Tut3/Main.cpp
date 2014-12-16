@@ -42,7 +42,7 @@ void initialiseGlutCallback() {
 int main(int argc, char **argv) {
 
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GL_DOUBLE | GL_RGBA);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowPosition(300, 300);
 	glutInitWindowSize(400, 300);
 	glutCreateWindow("Tutorial 03 - First Triangle");
